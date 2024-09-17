@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <h1>Guess My Number</h1>
+
+          <h1 id="heading">Game Over</h1>
+
+          <h3 id="guess-num-par">
+            Guess number <span id="guess-number"></span>
+          </h3>
+
+          <div id="game-container">
+            <h3>Guess between (1 to 20)</h3>
+            <h4>You guessed <span id="guess-time"></span> times</h4>
+            <h4>Remaining guess <span id="remaining-guess"></span></h4>
+            <input type="number" id="guess-box" /><br />
+            <button id="guess-btn">Guess</button>
+            <h3 id="lowOrHigh"></h3>
+          </div>
+
+          <button id="start-new-game">New Game</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
